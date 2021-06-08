@@ -9,8 +9,17 @@ Create a local repository and add and commit some files:
     git commit -m "added github exercise files"
 
 Create a remote repository and push your code from the local repo to the remote:
+    git remote add origin https://github.com/Tetyana-I/GitHubFirstExercise.git
+    git branch -M main
+    git push -u origin main
 
 Create a local branch and add and commit some files
+    git checkout -b new_branch
+    git add .
+    git commit -m "finished Part1 in github.txt"
+
 Push that local branch to GitHub to create a remote branch
+    git push origin new_branch
+
 Part II - Put your memory game on GitHub pages
 Using GitHub pages, deploy your memory game from the previous unit so that you can share them with anyone!
