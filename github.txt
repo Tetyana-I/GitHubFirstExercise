@@ -31,3 +31,5 @@ cd Memory_Game
     git remote add origin https://github.com/Tetyana-I/Memory_Game.git
     git branch -M main
     git push -u origin main
+
+    https://tetyana-i.github.io/Memory_Game/
