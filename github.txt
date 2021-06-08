@@ -21,5 +21,13 @@ Create a local branch and add and commit some files
 Push that local branch to GitHub to create a remote branch
     git push origin new_branch
 
+
 Part II - Put your memory game on GitHub pages
 Using GitHub pages, deploy your memory game from the previous unit so that you can share them with anyone!
+cd Memory_Game
+    git init
+    git add .
+    git commit -m "added Memory Game"
+    git remote add origin https://github.com/Tetyana-I/Memory_Game.git
+    git branch -M main
+    git push -u origin main
